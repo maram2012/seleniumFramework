@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Trivago Regression Suite" parallel="false">
+
+<parameter name="browser" value="chrome"></parameter>
+ <test name="Regression Test">
+    <classes>
+      <class name ="tests.CheckBrokenImgesLinkForTrivagoMagazine"/>
+         <class name ="tests.CheckBrokenLinksForTrivagoMagazine"/>
+           <class name ="tests.Searchforlocation"/>
+             <class name ="tests.SendContactForm"/>
+                    <class name ="tests.SubscribeToNews"/>
+             <class name ="tests.NavigateToTheDestination"/>  
+               
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Trivago Regression Suite" duration-ms="378154" started-at="2018-07-22T11:19:49Z" finished-at="2018-07-22T11:26:07Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="378154" started-at="2018-07-22T11:19:49Z" finished-at="2018-07-22T11:26:07Z">
+      <class name="tests.CheckBrokenImgesLinkForTrivagoMagazine">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.CheckBrokenImgesLinkForTrivagoMagazine@685cb137]" name="startDriver" is-config="true" duration-ms="10956" started-at="2018-07-22T13:19:49Z" finished-at="2018-07-22T13:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TestAllBokrenImgs()[pri:0, instance:tests.CheckBrokenImgesLinkForTrivagoMagazine@685cb137]" name="TestAllBokrenImgs" duration-ms="111038" started-at="2018-07-22T13:20:00Z" finished-at="2018-07-22T13:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllBokrenImgs -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CheckBrokenImgesLinkForTrivagoMagazine@685cb137]" name="screenshotOnFailure" is-config="true" duration-ms="4" started-at="2018-07-22T13:21:51Z" finished-at="2018-07-22T13:21:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAllBokrenImgs status=SUCCESS method=CheckBrokenImgesLinkForTrivagoMagazine.TestAllBokrenImgs()[pri:0, instance:tests.CheckBrokenImgesLinkForTrivagoMagazine@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.CheckBrokenImgesLinkForTrivagoMagazine@685cb137]" name="stopDriver" is-config="true" duration-ms="1190" started-at="2018-07-22T13:21:51Z" finished-at="2018-07-22T13:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.CheckBrokenImgesLinkForTrivagoMagazine -->
+      <class name="tests.SendContactForm">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.SendContactForm@6d4b1c02]" name="startDriver" is-config="true" duration-ms="12348" started-at="2018-07-22T13:25:13Z" finished-at="2018-07-22T13:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="checkuserCansendContactForm()[pri:0, instance:tests.SendContactForm@6d4b1c02]" name="checkuserCansendContactForm" duration-ms="10627" started-at="2018-07-22T13:25:26Z" finished-at="2018-07-22T13:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserCansendContactForm -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SendContactForm@6d4b1c02]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-07-22T13:25:36Z" finished-at="2018-07-22T13:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkuserCansendContactForm status=SUCCESS method=SendContactForm.checkuserCansendContactForm()[pri:0, instance:tests.SendContactForm@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.SendContactForm@6d4b1c02]" name="stopDriver" is-config="true" duration-ms="1066" started-at="2018-07-22T13:25:36Z" finished-at="2018-07-22T13:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SendContactForm -->
+      <class name="tests.SubscribeToNews">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.SubscribeToNews@6093dd95]" name="startDriver" is-config="true" duration-ms="13590" started-at="2018-07-22T13:25:37Z" finished-at="2018-07-22T13:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UserCanSubscribetoNewsLetter()[pri:0, instance:tests.SubscribeToNews@6093dd95]" name="UserCanSubscribetoNewsLetter" duration-ms="2283" started-at="2018-07-22T13:25:51Z" finished-at="2018-07-22T13:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSubscribetoNewsLetter -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.SubscribeToNews@6093dd95]" name="stopDriver" is-config="true" duration-ms="1054" started-at="2018-07-22T13:25:53Z" finished-at="2018-07-22T13:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SubscribeToNews@6093dd95]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-22T13:25:53Z" finished-at="2018-07-22T13:25:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSubscribetoNewsLetter status=SUCCESS method=SubscribeToNews.UserCanSubscribetoNewsLetter()[pri:0, instance:tests.SubscribeToNews@6093dd95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.SubscribeToNews -->
+      <class name="tests.Searchforlocation">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.Searchforlocation@7cd62f43]" name="startDriver" is-config="true" duration-ms="13187" started-at="2018-07-22T13:24:57Z" finished-at="2018-07-22T13:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanSearchForAnyLocation()[pri:1, instance:tests.Searchforlocation@7cd62f43]" name="userCanSearchForAnyLocation" duration-ms="2137" started-at="2018-07-22T13:25:10Z" finished-at="2018-07-22T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearchForAnyLocation -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.Searchforlocation@7cd62f43]" name="stopDriver" is-config="true" duration-ms="1204" started-at="2018-07-22T13:25:12Z" finished-at="2018-07-22T13:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.Searchforlocation@7cd62f43]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-22T13:25:12Z" finished-at="2018-07-22T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanSearchForAnyLocation status=SUCCESS method=Searchforlocation.userCanSearchForAnyLocation()[pri:1, instance:tests.Searchforlocation@7cd62f43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.Searchforlocation -->
+      <class name="tests.NavigateToTheDestination">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.NavigateToTheDestination@5622fdf]" name="startDriver" is-config="true" duration-ms="11334" started-at="2018-07-22T13:25:54Z" finished-at="2018-07-22T13:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanNavigateToaDestination()[pri:0, instance:tests.NavigateToTheDestination@5622fdf]" name="userCanNavigateToaDestination" duration-ms="580" started-at="2018-07-22T13:26:06Z" finished-at="2018-07-22T13:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanNavigateToaDestination -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.NavigateToTheDestination@5622fdf]" name="stopDriver" is-config="true" duration-ms="1014" started-at="2018-07-22T13:26:06Z" finished-at="2018-07-22T13:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.NavigateToTheDestination@5622fdf]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-22T13:26:06Z" finished-at="2018-07-22T13:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanNavigateToaDestination status=SUCCESS method=NavigateToTheDestination.userCanNavigateToaDestination()[pri:0, instance:tests.NavigateToTheDestination@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.NavigateToTheDestination -->
+      <class name="tests.CheckBrokenLinksForTrivagoMagazine">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.CheckBrokenLinksForTrivagoMagazine@6a41eaa2]" name="startDriver" is-config="true" duration-ms="15712" started-at="2018-07-22T13:21:52Z" finished-at="2018-07-22T13:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TestAllBokrenUrls()[pri:0, instance:tests.CheckBrokenLinksForTrivagoMagazine@6a41eaa2]" name="TestAllBokrenUrls" duration-ms="167653" started-at="2018-07-22T13:22:08Z" finished-at="2018-07-22T13:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllBokrenUrls -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CheckBrokenLinksForTrivagoMagazine@6a41eaa2]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-07-22T13:24:56Z" finished-at="2018-07-22T13:24:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAllBokrenUrls status=SUCCESS method=CheckBrokenLinksForTrivagoMagazine.TestAllBokrenUrls()[pri:0, instance:tests.CheckBrokenLinksForTrivagoMagazine@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.CheckBrokenLinksForTrivagoMagazine@6a41eaa2]" name="stopDriver" is-config="true" duration-ms="1131" started-at="2018-07-22T13:24:56Z" finished-at="2018-07-22T13:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.CheckBrokenLinksForTrivagoMagazine -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Trivago Regression Suite -->
+</testng-results>
