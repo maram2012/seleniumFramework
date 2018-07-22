@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Trivago Regression Suite]">
-  <parameter name="browser" value="chrome"/>
-  <test name="Regression Test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
+      <class name="tests.TestBase"/>
+      <class name="pages.HomePage"/>
       <class name="tests.CheckBrokenImgesLinkForTrivagoMagazine"/>
-      <class name="tests.CheckBrokenLinksForTrivagoMagazine"/>
-      <class name="tests.Searchforlocation"/>
+      <class name="utilities.Helper"/>
       <class name="tests.SendContactForm"/>
+      <class name="pages.UrlsPage"/>
+      <class name="pages.ContactPage"/>
       <class name="tests.SubscribeToNews"/>
+      <class name="tests.Searchforlocation"/>
       <class name="tests.NavigateToTheDestination"/>
+      <class name="tests.CheckBrokenLinksForTrivagoMagazine"/>
+      <class name="pages.PageBase"/>
     </classes>
-  </test> <!-- Regression Test -->
-</suite> <!-- Failed suite [Trivago Regression Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
